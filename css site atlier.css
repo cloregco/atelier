@@ -1,0 +1,15 @@
+/**{border: solid 1px red;}*/
+
+body{background-color: rgb(212, 196, 196);}
+#titre{font-size:35px;text-align: center;font-weight: 900;color: rgb(217, 20, 20);}
+
+#liste_1{width: 800px; margin: auto;font-size: 30px;}
+
+.liste_2{font-size: 25px;margin-left: 10px;}
+
+.lien{margin-left: 20px;font-size: 20px;color: rgb(28, 28, 197);text-decoration-line:underline;}
+
+.texte{margin-left: 20px;font-size: 20px;color: rgb(0, 0, 0);text-decoration:none; margin-top: 0px;margin-bottom: 0px;}
+
+.div_progresion{margin-top: 250px;background-color: white;width: min-content;margin-left: auto;margin-right: auto;border: 5px rgb(255, 0, 140) double;
+padding: 5px 5px 5px 5px;}
