@@ -3,27 +3,49 @@
     <head>
         <meta charset="utf-8">
         <title>atelier</title>
+        <link rel="stylesheet" href="css site atlier.css">
     </head>
     <body>
-        <h1>sites ressouces pour attelier</h1>
-        <details>
-            <summary>fiche ressouces</summary>
-            <details>
-                <summary>shémas</summary>
-                <ul>
-                    <li> <a href="ressource/bloquage.pdf">chéma blocage</a></li> <br>
-                    <li> <a href="ressource/usin salade.pdf">chéma usin salade</a></li><br>
-                    <li> <a href="ressource/moteur manuel ou auto (bon).pdf">chéma complet projet</a></li>
-                </ul>
-
+        <main>
+            <h1 id="titre">sites ressouces pour attelier pour les première</h1>
+            <details id="liste_1">
+                <summary>fiche ressouces</summary>
+                <details class="liste_2">
+                    <summary>fibre et regime de neutre</summary>
+                    <a class="lien" href="ressource/fibre et terre/mesure de terre dc_f_guide-terre_ed4.pdf">documentation messure de terre</a><br>
+                    <a class="lien" href="ressource/fibre et terre/Régime de neutre.pdf">documentation régime de neutre</a>
+                    <details>
+                        <summary class="lien">vidéo fibre optique</summary>
+                        <p class="texte">vidéo fibre optique:</p>
+                        <video class="texte" src="ressource/fibre et terre/fibre-optique-1.mp4" controls preload="metadata" width="600" height="auto" poster="ressource/fibre et terre/image vidéo fibre optique.PNG">navigateur non comatible dsl</video>
+                    </details>
+                </details>
+                <details class="liste_2">
+                    <summary>adress ip</summary>
+                    <a class="lien" href="ressource/ip/système de numération.pdf">système de numération</a><br>
+                    <a class="lien" href="ressource/ip/UF4-M2.1-CODAGE DE L'INFORMATION.pdf">CODAGE DE L'INFORMATION</a><br>
+                    <a class="lien" href="ressource/ip/UF4-M2.2.2-Exos num.pdf">exsercice</a><br>
+                    <a class="lien" href="ressource/ip/UF4-M3.1-adresse IPV4 cours.pdf">adresse IPV4 cour</a><br>
+                    <a class="lien" href="ressource/ip/UF4-M3.1-adresse IPV4 Exos.pdf">adresse IPV4 exsercice</a>
+                </details>
+                <details class="liste_2">
+                    <summary>shéma d'aide</summary>
+                    <a class="lien" href="ressource/shéma/bloquage.pdf">shéma de bloquage</a><br>
+                    <a class="lien" href="ressource/shéma/corretion  d'une évaluation.pdf">corretion évaluation</a><br>
+                    <a class="lien" href="ressource/shéma/Schéma démarrage 1 sens de marche.pdf">shéma démarage a double sens</a><br>
+                    <a class="lien" href="ressource/shéma/usin salade.pdf">usine salade</a><br>
+                    <a class="lien" href="ressource/shéma/usine produit chimique.pdf">usine produit chimique</a><br>
+                </details>
+                <details class="liste_2">
+                    <summary>divert</summary>
+                    <a class="lien" href="ressource/truc de control de formul.pdf">formule électrique</a>
+                </details>
+                
             </details>
-            <details>
-                <summary>autre</summary>
-                <ul>
-                    <li> <a href="ressource/truc de control de formul.pdf">formule divert</a></li> <br>
-                    <li> <a href="ressource/mesure de terre dc_f_guide-terre_ed4.pdf">cour messur de terre</a></li>
-                </ul>
-            </details>
-        </details>
+        </main>
+        <div class="div_progresion">
+            <progress value="2" max="100"></progress><br>
+            <meter value="20" min="0" max="100"></meter>
+        </div>
     </body>
 </html>
